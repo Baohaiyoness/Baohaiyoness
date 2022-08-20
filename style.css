@@ -1,0 +1,131 @@
+.header{
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+.logo img{
+	width: 35%;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	padding: 0 10px;	
+}
+.nav li a{
+	color: white;
+	text-decoration: none;
+}
+.nav li a:hover{
+	opacity: .8;
+}
+.banner{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content{
+	position: absolute;
+	top: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bolder;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+}
+.daubep img{
+	width: 100%;
+}
+.daubep{
+	position: relative
+}
+.lichsucenter{
+	top: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: large;
+	font-weight: bolder;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color:rgba(207,17,20,1.00);
+	position: absolute
+}
+.chuchay{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 200px;
+	color: rgba(17,16,16,1.00);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	animation-play-state: running;
+	position: relative;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	list-style:  none;
+	box-sizing: border-box;
+	margin-block-star: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-star: 0px;
+	margin-inline-end: 0px;
+	offset: 0vw;
+	move-initial: calc(-25% + var(--offset));
+    move-final: calc(-50% + var(--offset));
+	pointer-events: all;
+	line-height: 1;
+	font-family: 'Calibre',sans-serif;
+	left: 0;
+	left: -100;
+	animation-iteration-count: infinite;
+	animation-direction: 0.05s;
+}
+.mamsushi img{
+	width: 100%;
+}
+.hinhchuyendong img{
+	width: 30%;
+	border-radius: 10%;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
+	animation-direction: 0.05s;
+}
+.doannd{
+	top: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: large;
+	font-weight: bolder;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color:rgba(11,11,11,1.00);
+	position: absolute;
+	background: rgba(16,16,16,1.00);
+}
+.footer{
+	background:rgba(207,17,20,1.00);
+	padding: 50px 0;
+}
+.footer p{
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+	line-height: 2.5;
+	white-space: 10px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin-left: 70px;
+}
+
